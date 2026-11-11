@@ -1,0 +1,19 @@
+P1 – PROJECT FOLDER AND TERMINAL NAVIGATION
+
+Commands (run one by one in Terminal):
+
+mkdir -p my-portfolio/css my-portfolio/images
+cd my-portfolio
+touch index.html css/style.css
+pwd
+ls -la
+cd css
+pwd
+cd ..
+
+What they do:
+mkdir creates folders.
+cd changes the current directory.
+touch creates empty files.
+pwd shows the current directory.
+ls lists the files and folders.
