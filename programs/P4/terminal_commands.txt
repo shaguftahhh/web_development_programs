@@ -1,0 +1,9 @@
+P4 – README AND VERSION TAG
+
+Run these commands inside your Git repository after editing README.md:
+
+git add README.md
+git commit -m "Write project README"
+git tag -a v1.0 -m "First portfolio version"
+git push origin main
+git push origin v1.0
