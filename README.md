@@ -2,36 +2,34 @@
 
 Student-friendly solutions for the **Programming for Web Development – I Laboratory**.
 
-Each program is kept in its own folder. HTML, CSS and terminal commands are separated into different files wherever they are used.
+Each program has its own folder. HTML, CSS and terminal commands are kept in separate files.
 
 ## Module 1 – Terminal, Git & GitHub
 
-These programs use shell scripts for the terminal commands:
-
-- [P1 – Project folder and terminal navigation](programs/P1/project_setup.sh)
-- [P2 – Portfolio repo with an initial commit](programs/P2/initial_commit.sh)
-- [P3 – Feature-branch Git workflow](programs/P3/feature_branch.sh)
-- [P4 – GitHub README and version tags](programs/P4/readme_and_tag.sh)
+- [P1 – Terminal commands](programs/P1/terminal_commands.txt)
+- [P2 – Initial Git repository commands](programs/P2/terminal_commands.txt)
+- [P3 – Feature branch commands](programs/P3/terminal_commands.txt)
+- [P4 – README and version tag commands](programs/P4/terminal_commands.txt)
 
 ## Module 2 – HTML & CSS foundations
 
-- [P5 – Semantic bio page](programs/P5/index.html)
-- [P6 – Full portfolio page structure in semantic HTML](programs/P6/index.html)
-- [P7 – Design tokens and typography system in CSS](programs/P7/style.css)
-- [P8 – Sticky navbar and card overlay](programs/P8/index.html) · [CSS](programs/P8/style.css)
-- [P9 – Responsive navbar and card grid using Flexbox](programs/P9/index.html) · [CSS](programs/P9/style.css)
+- [P5 – Bio page HTML](programs/P5/index.html) · [CSS](programs/P5/style.css)
+- [P6 – Semantic portfolio HTML](programs/P6/index.html) · [CSS](programs/P6/style.css)
+- [P7 – Design tokens HTML](programs/P7/index.html) · [CSS](programs/P7/style.css)
+- [P8 – Sticky navbar HTML](programs/P8/index.html) · [CSS](programs/P8/style.css)
+- [P9 – Responsive Flexbox HTML](programs/P9/index.html) · [CSS](programs/P9/style.css)
 
 ## Module 3 – CSS layout systems
 
-- [P10 – Portfolio header and footer with advanced Flexbox](programs/P10/index.html) · [CSS](programs/P10/style.css)
-- [P11 – Newspaper-style three-column layout with CSS Grid](programs/P11/index.html) · [CSS](programs/P11/style.css)
-- [P12 – Portfolio projects grid with advanced CSS Grid](programs/P12/index.html) · [CSS](programs/P12/style.css)
-- [P13 – Choosing between Flexbox and Grid](programs/P13/index.html) · [CSS](programs/P13/style.css)
+- [P10 – Flexbox portfolio HTML](programs/P10/index.html) · [CSS](programs/P10/style.css)
+- [P11 – Newspaper Grid HTML](programs/P11/index.html) · [CSS](programs/P11/style.css)
+- [P12 – Advanced projects Grid HTML](programs/P12/index.html) · [CSS](programs/P12/style.css)
+- [P13 – Flexbox vs Grid HTML](programs/P13/index.html) · [CSS](programs/P13/style.css)
 
-## Folder guide
+## File guide
 
-- HTML files: `index.html`
-- CSS files: `style.css`
-- Terminal command files: `.sh` scripts
+- `index.html` contains the page structure.
+- `style.css` contains the styling and is linked from its HTML file.
+- `terminal_commands.txt` contains commands to copy and run in Terminal.
 
-For P2, replace the sample GitHub URL with your own repository URL before running the script. Run shell scripts from a terminal using `bash filename.sh`.
+For the GitHub commands in P2, replace the sample username and repository URL with your own before running them.
