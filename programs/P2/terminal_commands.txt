@@ -1,0 +1,18 @@
+P2 – INITIALISE A PORTFOLIO GIT REPOSITORY
+
+Run these commands from Terminal:
+
+mkdir my-portfolio
+cd my-portfolio
+git init
+echo "# My Portfolio" > README.md
+git status
+git add README.md
+git commit -m "Add initial portfolio README"
+git branch -M main
+
+Before the next command, replace YOUR-USERNAME with your GitHub username
+and make sure you have created an empty GitHub repository named my-portfolio.
+
+git remote add origin https://github.com/YOUR-USERNAME/my-portfolio.git
+git push -u origin main
