@@ -1,0 +1,14 @@
+P3 – FEATURE BRANCH WORKFLOW
+
+Run these commands inside your cloned project repository.
+Make your About section changes before staging and committing.
+
+git switch -c feature/about-section
+git status
+git add .
+git commit -m "Add about section"
+git push -u origin feature/about-section
+git switch main
+git pull origin main
+git merge feature/about-section
+git push origin main
