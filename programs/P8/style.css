@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 6%;
+  background: #17233d;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 16px;
+}
+
+.project-card {
+  position: relative;
+  max-width: 700px;
+  margin: 40px auto;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.project-card img {
+  display: block;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  inset: auto 0 0;
+  padding: 20px;
+  color: white;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.85));
+}
+
+.extra-content {
+  min-height: 900px;
+  padding: 24px;
+}
