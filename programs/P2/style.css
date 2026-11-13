@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif; 
+      margin: 0;
+      background: rgb(244, 246, 248);
+      color: black;
+}
+header { 
+  background: rgb(36, 74, 102); 
+        color: white;
+        text-align: center; 
+        padding: 28px; 
+}
+main {
+  max-width: 800px; 
+      margin: 25px auto;
+      padding: 0 18px;
+}
+section {
+
+  background: white; 
+  padding: 18px; 
+  margin-bottom: 16px; 
+  border-radius: 6px; 
+}
+h2 { 
+  color: #244a66; 
+}
